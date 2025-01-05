@@ -1,0 +1,78 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(237, 250, 64) ;
+}
+nav{
+    padding: 60px 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px; 
+}
+nav h2{
+    font-size: 48px;
+    font-weight: 500;
+}
+nav a{
+    font-size: 39px;
+    color: black;
+    text-decoration: none;
+}
+section{
+    padding: 60px 100px;
+
+}
+section .hero-text1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.hero-text1{
+    font-size: 260px;
+    text-transform: uppercase;
+    line-height: 300px;
+    font-family: gilroy;
+    font-weight: 900px;
+    margin-top: 100px;
+}
+.hero-text1 .vedio{ 
+    height: 220px;
+    width: 700px;
+    background-color: black;
+    border-radius: 200px;
+    margin-top: 50px;
+    section .hero-text2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.hero-text2 h1{
+    font-size: 350px;
+    text-transform: uppercase;
+    line-height: 300px;
+     font-weight: 900px;
+}
+.hero-text2 p{
+    font-size:40px;
+    text-transform: uppercase;
+    width: 900px;
+}
